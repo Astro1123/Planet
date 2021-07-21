@@ -39,9 +39,9 @@ int p_main() {
 		} else if(metn== 8) {
 			VelocityVerlet(i,dt,r[i]);
 		} else if(metn== 9) {
-			EulerRichardson(i,dt,r[i]);
-		} else if(metn==10) {
 			Leapfrog(i,dt,r[i]);
+		//} else if(metn==10) {
+		//	EulerRichardson(i,dt,r[i]);
 		} else {
 			RungeKutta(i,dt,r[i]);
 		}
@@ -113,7 +113,8 @@ int WINAPI WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	int tmpkey[256];
 	float move[]={1000.0f,100.0f,10.0f,1.0f,0.1f,0.01f};
 	float rot[] ={(float)DX_PI_F/15,(float)DX_PI_F/36,(float)DX_PI_F/90,(float)DX_PI_F/180};
-	char method[][64]={"4-stage Runge-Kutta method","Euler method","improved Euler method","midpoint method","Ralston's method","Kutta's 3rd-order method","3/8-rule 4th-order method","Runge-Kutta-Fehlberg method","Velocity Verlet method","Euler Richardson method","Leap-frog scheme"};
+	char method[][64]={"4-stage Runge-Kutta method","Euler method","improved Euler method","midpoint method","Ralston's method","Kutta's 3rd-order method","3/8-rule 4th-order method","Runge-Kutta-Fehlberg method","Velocity Verlet method","Leap-frog scheme"};
+	//,"Euler Richardson method"
 	
 	// タイトルを test に変更
 	SetMainWindowText( "Planet (DirectX version)" ) ;
