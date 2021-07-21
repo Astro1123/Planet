@@ -1,0 +1,10 @@
+Debug/
+.DS_Store
+DxCompileConfig.h
+DxDataType.h
+DxDataTypeWin.h
+*.lib
+DxFunctionWin.h
+DxLib.h
+DxLib.txt
+Release/Log.txt
