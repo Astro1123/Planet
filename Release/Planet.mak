@@ -9,9 +9,9 @@ CFLAG=-W  -3 -O2 -w- -AT -pc -H- -k -b
 OUTDIR=-nRelease
 CINCS=
 TARGET=Release\Planet.exe
-SRC1=E:\Backup\Program\C\Planet\Planet\Planet.cpp
+SRC1=C:\Users\Adans\Desktop\Planet\Planet.cpp
 OBJ1=Release\Planet.obj
-SRC2=E:\Backup\Program\C\Planet\Planet\calc.cpp
+SRC2=C:\Users\Adans\Desktop\Planet\calc.cpp
 OBJ2=Release\calc.obj
 
 TARGET: $(TARGET)
